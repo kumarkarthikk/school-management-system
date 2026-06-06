@@ -1,6 +1,7 @@
 
 from admission import add_student
 from search import search_student
+from update import update_student
 
 
 while True:
@@ -9,7 +10,8 @@ while True:
 
     print("1. New Admission")
     print("2. Search Student")
-    print("3. Exit")
+    print("3. Update Student")
+    print("4. Exit")
 
     choice = input("\nEnter Your Choice: ")
 
@@ -20,6 +22,9 @@ while True:
         search_student()
 
     elif choice == "3":
+        update_student()
+
+    elif choice == "4":
         print("\nProgram Closed")
         break
 
