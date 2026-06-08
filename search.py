@@ -1,6 +1,5 @@
-
+# To search for student details in the Excel file
 from openpyxl import load_workbook
-
 
 def search_student():
 
@@ -58,4 +57,3 @@ def search_student():
 
     if found == False:
         print("\nStudent Not Found")
-

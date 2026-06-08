@@ -1,4 +1,4 @@
-
+#to run the main program and call the functions from other files
 from admission import add_student
 from search import search_student
 from update import update_student
@@ -35,4 +35,3 @@ while True:
 
     else:
         print("\nInvalid Choice")
-

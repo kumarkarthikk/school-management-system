@@ -1,6 +1,5 @@
-
+# To mark a student as left in the Excel file
 from openpyxl import load_workbook
-
 
 def leave_student():
 
@@ -67,4 +66,3 @@ def leave_student():
     # Student not found
     if found == False:
         print("\nStudent Not Found")
-

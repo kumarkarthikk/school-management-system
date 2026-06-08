@@ -1,6 +1,5 @@
-
+# To update student details in the Excel file
 from openpyxl import load_workbook
-
 
 def update_student():
 
@@ -87,4 +86,3 @@ def update_student():
     # If student not found
     if found == False:
         print("\nStudent Not Found")
-

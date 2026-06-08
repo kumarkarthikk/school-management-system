@@ -1,6 +1,5 @@
-
+#To add new student details to the Excel file
 from openpyxl import load_workbook
-
 
 def add_student():
 
@@ -45,4 +44,3 @@ def add_student():
     wb.save("1st_project/students.xlsx")
 
     print("\nStudent Added Successfully")
-
